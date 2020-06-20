@@ -16,7 +16,7 @@ public class Teste {
 			
 			for (int i = 0; i < qtd; i++) {
 				Produto prod = new Produto();
-				String nomeProduto = JOptionPane.showInputDialog("Digite o nome do produto " + (i+1) + ":");
+				String nomeProduto = JOptionPane.showInputDialog("Digite o nome do produto " + (i + 1) + ":");
 				prod.setNome(nomeProduto);
 				produtos.add(prod);			
 			}
