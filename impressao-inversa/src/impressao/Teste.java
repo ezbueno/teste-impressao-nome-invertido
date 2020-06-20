@@ -30,7 +30,7 @@ public class Teste {
 			System.out.println();
 			
 			System.out.println("Lista de Produtos impressos com a impressão inversa: " );
-			for (int i = 0, j = produtos.size() -1 ; i < produtos.size(); i++, j--) {
+			for (int i = 0, j = produtos.size() - 1 ; i < produtos.size(); i++, j--) {
 				System.out.println("O " + (j + 1) + " º item da lista é: " + produtos.get(j).getNome());			
 			}
 			
