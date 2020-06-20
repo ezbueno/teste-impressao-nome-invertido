@@ -22,15 +22,16 @@ public class Teste {
 			}
 			
 			System.out.println("Lista de Produtos impressos: " );
-			for (Produto prod : produtos) {
-				System.out.println(prod.getNome());
+			
+			for (int i = 0; i < produtos.size(); i++) {
+				System.out.println("O " + (i + 1) + " º item da lista é: " + produtos.get(i).getNome());
 			}
 			
 			System.out.println();
 			
-			System.out.println("Lista de Produtos impressos com a impressão ao contrário: " );
+			System.out.println("Lista de Produtos impressos com a impressão inversa: " );
 			for (int i = 0, j = produtos.size() -1 ; i < produtos.size(); i++, j--) {
-				System.out.println(produtos.get(j).getNome());			
+				System.out.println("O " + (j + 1) + " º item da lista é: " + produtos.get(j).getNome());			
 			}
 			
 			System.out.println();
@@ -40,7 +41,7 @@ public class Teste {
 			for (int i = 0; i < produtos.size(); i++) {
 				String nomeProd = produtos.get(i).getNome();
 				String nomeProdInvertido = new StringBuilder(nomeProd).reverse().toString();
-				System.out.println(nomeProdInvertido);				
+				System.out.println("O " + (i + 1) + " º item da lista é: " + nomeProdInvertido);				
 			}
 				
 
