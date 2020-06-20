@@ -36,7 +36,7 @@ public class Teste {
 
 		System.out.println();
 
-		System.out.println("Lista de Produtos impressos com os nomes dos produtos invertidos: ");
+		System.out.println("Lista de Produtos impressos com os nomes invertidos: ");
 
 		for (int i = 0; i < produtos.size(); i++) {
 			String nomeProd = produtos.get(i).getNome();
